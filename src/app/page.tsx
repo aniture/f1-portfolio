@@ -46,9 +46,12 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
-            <button className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded text-white font-semibold">
+            <a
+              href="#projects"
+              className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded text-white font-semibold"
+            >
               See My Work
-            </button>
+            </a>
             <a
               href="/AdityaNiture_SoftwareDeveloper_Resume.pdf"
               download

@@ -32,7 +32,7 @@ function Projects() {
   ];
 
   return (
-    <div className="py-20 px-6 md:px-20 bg-gray-950 text-white">
+    <div id="projects" className="py-20 px-6 md:px-20 bg-gray-950 text-white">
       <h2 className="text-4xl font-bold text-red-600 text-center mb-10">Project Race Grid</h2>
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto"
