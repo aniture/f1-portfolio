@@ -15,7 +15,12 @@ export default function AboutMe() {
 
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Profile Photo (add your image later) */}
-          <div className="w-40 h-40 rounded-full bg-gray-800 border-4 border-red-600" />
+          <img
+            src="/myimage.jpg"
+            alt="Aditya Niture"
+            className="w-40 h-40 rounded-full object-cover border-4 border-red-600 shadow-md"
+            />
+
 
           {/* Bio */}
           <div className="text-left">
