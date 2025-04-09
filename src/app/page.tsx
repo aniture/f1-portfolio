@@ -5,13 +5,17 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import RaceLights from './components/RaceLights';
+import TrackDivider from './components/TrackDivider';
 
 export default function Home() {
   return (
     <div className="bg-black text-white">
+      {/* Race Light Intro */}
+      <RaceLights />
+
       {/* Landing Section */}
       <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-red-900 flex items-center justify-center relative overflow-hidden">
-        
         {/* Background Track Effect */}
         <div className="absolute inset-0 opacity-10 bg-[url('/track-bg.jpg')] bg-cover bg-center z-0" />
 
@@ -46,23 +50,27 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
+            {/* See My Work Button */}
             <a
               href="#projects"
-              className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded text-white font-semibold"
+              className="relative group overflow-hidden bg-red-600 px-6 py-2 rounded text-white font-semibold shadow-md hover:bg-red-700 transition duration-300"
             >
-              See My Work
+              <span className="z-10 relative">See My Work</span>
+              <span className="absolute left-0 top-0 h-full w-full bg-white opacity-10 scale-0 group-hover:scale-150 group-hover:opacity-20 transition-transform duration-500 rounded-full" />
             </a>
+
+            {/* Download Resume Button */}
             <a
               href="/AdityaNiture_SoftwareDeveloper_Resume.pdf"
               download
-              className="border border-gray-300 hover:bg-gray-800 px-6 py-2 rounded text-white font-semibold text-center"
+              className="relative group overflow-hidden border border-gray-300 px-6 py-2 rounded text-white font-semibold text-center hover:bg-gray-800 transition duration-300"
             >
-              Download Resume
+              <span className="z-10 relative">Download Resume</span>
+              <span className="absolute left-0 top-0 h-full w-full bg-white opacity-10 scale-0 group-hover:scale-150 group-hover:opacity-20 transition-transform duration-500 rounded-full" />
             </a>
           </motion.div>
         </motion.div>
 
-        
         {/* Race Car Animation */}
         <motion.img
           src="/f1-car.png"
@@ -75,20 +83,19 @@ export default function Home() {
             repeatType: 'loop',
             ease: 'easeInOut',
           }}
-          />
-
+        />
       </div>
 
-      {/* About Me Section */}
+      {/* Sections with Dividers */}
       <AboutMe />
+      <TrackDivider />
 
-      {/* Projects Section */}
       <Projects />
+      <TrackDivider />
 
-      {/* Skills Section */}
       <Skills />
+      <TrackDivider />
 
-      {/* Contact Section */}
       <Contact />
     </div>
   );
