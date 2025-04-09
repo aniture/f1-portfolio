@@ -62,14 +62,21 @@ export default function Home() {
           </motion.div>
         </motion.div>
 
+        
         {/* Race Car Animation */}
         <motion.img
           src="/f1-car.png"
           alt="Formula 1 Car"
-          className="absolute bottom-0 left-[-200px] w-64 md:w-96 z-0"
-          animate={{ x: [0, 500, -200] }}
-          transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-        />
+          className="absolute bottom-10 left-[-300px] w-64 md:w-96 z-10 drop-shadow-xl"
+          animate={{ x: ['-300px', '110vw'] }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: 'loop',
+            ease: 'easeInOut',
+          }}
+          />
+
       </div>
 
       {/* About Me Section */}
