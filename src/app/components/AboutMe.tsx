@@ -30,13 +30,13 @@ export default function AboutMe() {
             <h3 className="text-2xl font-semibold mb-2">Aditya Niture</h3>
             <p className="text-gray-300 leading-relaxed">
               I’m a passionate Full Stack Developer & Data Engineer, building digital experiences
-              with speed and precision — just like a pit stop crew. With a background in
+              with speed and precision, just like a pit stop crew. With a background in
               AI/ML, full-stack apps, and real-time systems, I thrive on innovation and performance.
             </p>
 
             <ul className="mt-4 text-sm text-gray-400 space-y-1">
               <li>🏁 Current Lap: MS in CS @ IIT Chicago</li>
-              <li>🛠️ Tech Garage: React, Python, Java, ML, Flutter</li>
+              <li>🛠️ Tech Garage: React, Python, Java, ML, Flutter, +Many More</li>
               <li>🏎️ Fastest Pit Stop: Ping Cares, Swaraj Infotech</li>
             </ul>
           </div>

@@ -8,26 +8,32 @@ function Projects() {
     {
       title: 'Online Shoppers Intention',
       description: 'ML model using XGBoost & SMOTE to predict online purchase behavior.',
-      tags: ['Machine Learning', 'XGBoost', 'Python'],
-      link: '#',
+      tags: ['Machine Learning', 'XGBoost', 'Python', 'MLModels', 'SMOTE', 'K-Menas', 'DBScan'],
+      link: 'https://github.com/aniture/Analysis-on-Online-Shoppers-Purchasing-Intention',
     },
     {
       title: 'Live News App',
       description: 'Flutter app fetching live news from APIs with category filters and bookmarks.',
-      tags: ['Flutter', 'Dart', 'REST API'],
-      link: '#',
+      tags: ['Flutter', 'Dart', 'REST API', 'Git', 'OOP', 'Agile Methologies'],
+      link: 'https://github.com/aniture/Live-News-Fetching-Application',
     },
     {
       title: 'Gas Pump System',
       description: 'Modeled an EFSM system to handle dynamic fuel options and payment flow.',
       tags: ['OOP', 'Java', 'Strategy Pattern'],
-      link: '#',
+      link: 'https://github.com/aniture/MDA-EFSM-model-for-the-Gas-Pump',
     },
     {
       title: 'Air Quality Prediction',
       description: 'Predicted PM2.5 using LSTM, ARIMA and Random Forest on real-world data.',
-      tags: ['ML', 'LSTM', 'Pandas'],
-      link: '#',
+      tags: ['ML', 'LSTM', 'Pandas','MLModels'],
+      link: 'https://github.com/aniture/Air-Quality-Prediction',
+    },
+    {
+      title: 'Blood and Organ Donation Android Application',
+      description: 'Development of an Android application for blood and organ donation management, utilizing Android Studio, IntelliJ, Eclipse, and Kotlin.',
+      tags: ['Android Studio', 'Kotlin', 'SQL'],
+      link: 'https://github.com/aniture/Blood-And-OrganDonation-Application',
     },
   ];
 

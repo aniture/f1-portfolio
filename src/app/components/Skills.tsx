@@ -3,11 +3,12 @@
 import { motion } from 'framer-motion';
 
 const categories = {
-  'Frontend': ['React', 'Next.js', 'Tailwind CSS', 'Flutter'],
-  'Backend': ['Node.js', 'Spring Boot', 'Django', 'Express'],
-  'Data & ML': ['Pandas', 'TensorFlow', 'Scikit-Learn', 'SQL'],
-  'Cloud & DevOps': ['AWS', 'Docker', 'Kubernetes', 'CI/CD'],
-  'Languages': ['Python', 'Java', 'JavaScript', 'C++'],
+  'Frontend': ['React', 'Next.js', 'Tailwind CSS', 'Flutter', 'HTML', 'JavaScript', 'TypeScript', 'Vue', 'Angular', 'AJAX', 'XCode/Swift'],
+  'Backend': ['Node.js', 'Spring Boot', 'Django', 'Express', 'Hibernate', 'Flask', 'GraphQL', 'RESTful APIs', '.NET', 'PHP', 'Ruby', 'Go', 'C#', 'Rust'],
+  'Data & ML': ['Pandas', 'TensorFlow', 'Scikit-Learn', 'SQL', 'Python', 'R', 'MATLAB', 'Julia', 'NumPy', 'Keras','PyTorch','MLAlgorithms','Dimensionality Reduction', 'NLP', 'RAG', 'Tableau', 'PowerBI', 'Matplotlib'],
+  'Databases & Big Data':['SQL', 'MySQL', 'PostgreSQL', 'SQL Server', 'MongoDB', 'Cassandra', 'Redis', 'Spark', 'Hadoop', 'Apache'],
+  'Cloud & DevOps': ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'GCP', 'Azure', 'Helm', 'Terraform', 'Pulumi', 'Github', 'Bash Scripting', 'Airflow', 'Ansible', 'System Configuration', 'Linux Systems', 'TCP/IP'],
+  'Development Practices & Methodologies':['Agile', 'Scrum', 'Sprint', 'XP', 'Agile Modeling', 'Kanban', 'Confluence', 'Jira', 'Jenkin', 'Spinnaker', 'Bamboo'],
 };
 
 function Skills() {
