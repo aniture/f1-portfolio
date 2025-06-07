@@ -6,10 +6,28 @@ import ProjectCard from './ProjectCard';
 function Projects() {
   const projects = [
     {
+      title: 'Desktop Scheduler App',
+      description: 'Windows Forms app using .NET and Entity Framework for task scheduling with CRUD operations.',
+      tags: ['.NET', 'C#', 'Entity Framework', 'Windows Forms', 'SQL Server'],
+      link: 'https://github.com/aniture/desktop-scheduler-app',
+    },
+    {
       title: 'Online Shoppers Intention',
       description: 'ML model using XGBoost & SMOTE to predict online purchase behavior.',
       tags: ['Machine Learning', 'XGBoost', 'Python', 'MLModels', 'SMOTE', 'K-Menas', 'DBScan'],
       link: 'https://github.com/aniture/Analysis-on-Online-Shoppers-Purchasing-Intention',
+    },
+    {
+      title: 'FancyQuoteApp',
+      description: 'Fun quote-generating mobile app with animation and UI effects, built using Flutter.',
+      tags: ['Flutter', 'Dart', 'Mobile App', 'Animations', 'UI/UX'],
+      link: 'https://github.com/aniture/FancyQuoteApp',
+    },
+    {
+      title: 'Vending Machine System',
+      description: 'Modeled an EFSM system to handle dynamic bevarage options and payment flow.',
+      tags: ['OOP', 'Java', 'Strategy Pattern'],
+      link: 'https://github.com/aniture/MDA-EFSM-Model-for-Vending-Machine',
     },
     {
       title: 'Live News App',
@@ -35,6 +53,26 @@ function Projects() {
       tags: ['Android Studio', 'Kotlin', 'SQL'],
       link: 'https://github.com/aniture/Blood-And-OrganDonation-Application',
     },
+    {
+      title: 'Battleship Android Game',
+      description: 'Multiplayer Battleship game with custom game logic and UI animations built in Flutter.',
+      tags: ['Flutter', 'Dart', 'Game Development', 'Multiplayer', 'Mobile App'],
+      link: 'https://github.com/aniture/Battleship-Android-Game',
+    },
+    
+    {
+      title: 'Flashcard Android Game',
+      description: 'Educational flashcard game built with Flutter for interactive learning through quizzes.',
+      tags: ['Flutter', 'Dart', 'Education', 'Game App', 'Mobile Learning'],
+      link: 'https://github.com/aniture/Flashcard-Android-Game',
+    },
+    
+    {
+      title: 'Yatzee Android Game',
+      description: 'A digital version of the classic Yatzee dice game built in Flutter with turn-based logic.',
+      tags: ['Flutter', 'Dart', 'Game Development', 'Dice Game', 'Mobile App'],
+      link: 'https://github.com/aniture/Yatzee-Android-Game',
+    }
   ];
 
   return (
