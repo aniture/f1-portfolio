@@ -19,8 +19,8 @@ function Projects() {
     },
     {
       title: 'FancyQuoteApp',
-      description: 'Fun quote-generating mobile app with animation and UI effects, built using Flutter.',
-      tags: ['Flutter', 'Dart', 'Mobile App', 'Animations', 'UI/UX'],
+      description: 'Fun quote-generating web app with animation and UI effects, built using ASP.NET.',
+      tags: ['ASP.NET', 'C#', 'Web App', 'Animations', 'UI/UX'],
       link: 'https://github.com/aniture/FancyQuoteApp',
     },
     {
@@ -36,16 +36,16 @@ function Projects() {
       link: 'https://github.com/aniture/Live-News-Fetching-Application',
     },
     {
-      title: 'Gas Pump System',
-      description: 'Modeled an EFSM system to handle dynamic fuel options and payment flow.',
-      tags: ['OOP', 'Java', 'Strategy Pattern'],
-      link: 'https://github.com/aniture/MDA-EFSM-model-for-the-Gas-Pump',
-    },
-    {
       title: 'Air Quality Prediction',
       description: 'Predicted PM2.5 using LSTM, ARIMA and Random Forest on real-world data.',
       tags: ['ML', 'LSTM', 'Pandas','MLModels'],
       link: 'https://github.com/aniture/Air-Quality-Prediction',
+    },
+    {
+      title: 'Gas Pump System',
+      description: 'Modeled an EFSM system to handle dynamic fuel options and payment flow.',
+      tags: ['OOP', 'Java', 'Strategy Pattern'],
+      link: 'https://github.com/aniture/MDA-EFSM-model-for-the-Gas-Pump',
     },
     {
       title: 'Blood and Organ Donation Android Application',
