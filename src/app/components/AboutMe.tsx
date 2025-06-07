@@ -35,7 +35,7 @@ export default function AboutMe() {
             </p>
 
             <ul className="mt-4 text-sm text-gray-400 space-y-1">
-              <li>🏁 Current Lap: MS in CS @ IIT Chicago</li>
+              <li>🏁 Recent Lap: MS in CS @ IIT Chicago</li>
               <li>🛠️ Tech Garage: React, Python, Java, ML, Flutter, +Many More</li>
               <li>🏎️ Fastest Pit Stop: Ping Cares, Swaraj Infotech</li>
             </ul>
