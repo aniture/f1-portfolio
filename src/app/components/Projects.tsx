@@ -9,7 +9,7 @@ function Projects() {
       title: 'AI-Financial News Summarizer',
       description: 'A sleek React + FastAPI web app that helps you summarize financial news, detect sentiment, and extract tickers and sectors using AI. It also shows live financial headlines via NewsAPI.',
       tags: ['React','FastAPI', 'Python', 'AI', 'NewsAPI', 'Sentiment Analysis', 'Ticker Extraction'],
-      link: 'https://github.com/aniture/f1-portfolio',
+      link: 'https://github.com/aniture/ai-financial-news-summarizer',
     },
     {
       title: 'Desktop Scheduler App',
