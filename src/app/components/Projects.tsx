@@ -15,7 +15,7 @@ function Projects() {
       title: 'Hunt for Artifacts',
       description: 'A progressive web app (PWA) designed for interactive treasure hunts where users scan QR codes to unlock artifact details. Built with React, TypeScript, and Vite, it supports offline caching, local progress tracking, and includes an admin panel for managing artifacts, generating QR codes, and exporting printable labels.',
       tags: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Node.js', 'Express', 'Drizzle ORM', 'PWA', 'QR Code'],
-      link: 'https://github.com/aniture/HuntForArtifacts',
+      link: 'https://github.com/aniture/Hunt-For-Artifacts',
     },
     {
       title: '3D Geometry Manipulation Simulation',
