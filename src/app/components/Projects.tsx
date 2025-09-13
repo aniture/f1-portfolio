@@ -6,6 +6,24 @@ import ProjectCard from './ProjectCard';
 function Projects() {
   const projects = [
     {
+      title: 'AI-Generation Studio UI',
+      description: 'A full-stack AI generation platform built with React, Node.js, and TypeScript that integrates Stable Diffusion APIs to create advanced images and 3D models. Features include real-time prompt handling, error recovery, reusable UI components with Tailwind + shadcn, and a secure backend with Express and PostgreSQL.',
+      tags: ['React', 'Node.js', 'TypeScript', 'Tailwind', 'shadcn', 'PostgreSQL', 'AI', 'Stable Diffusion'],
+      link: 'https://github.com/aniture/ai-generation-studio-ui',
+    },
+    {
+      title: 'Hunt for Artifacts',
+      description: 'A progressive web app (PWA) designed for interactive treasure hunts where users scan QR codes to unlock artifact details. Built with React, TypeScript, and Vite, it supports offline caching, local progress tracking, and includes an admin panel for managing artifacts, generating QR codes, and exporting printable labels.',
+      tags: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Node.js', 'Express', 'Drizzle ORM', 'PWA', 'QR Code'],
+      link: 'https://github.com/aniture/HuntForArtifacts',
+    },
+    {
+      title: '3D Geometry Manipulation Simulation',
+      description: 'An interactive simulation tool for visualizing and manipulating 3D geometric structures. Users can apply transformations, rotations, and scaling in real time with a modern web interface powered by Three.js and React, making it ideal for educational and visualization purposes.',
+      tags: ['React', 'Three.js', 'JavaScript', '3D Simulation', 'WebGL', 'Geometry Visualization'],
+      link: 'https://github.com/aniture/3d-geometry-manipulation-simulation',
+    },
+    {
       title: 'AI-Financial News Summarizer',
       description: 'A sleek React + FastAPI web app that helps you summarize financial news, detect sentiment, and extract tickers and sectors using AI. It also shows live financial headlines via NewsAPI.',
       tags: ['React','FastAPI', 'Python', 'AI', 'NewsAPI', 'Sentiment Analysis', 'Ticker Extraction'],
