@@ -9,10 +9,11 @@ import { cn } from '@/lib/utils';
 import { Menu, X, ChevronRight } from 'lucide-react';
 
 const menuItems = [
-  { name: 'About',    href: 'about' },
-  { name: 'Projects', href: 'projects' },
-  { name: 'Skills',   href: 'skills' },
-  { name: 'Contact',  href: 'contact' },
+  { name: 'About',      href: 'about' },
+  { name: 'Experience', href: 'experience' },
+  { name: 'Projects',   href: 'projects' },
+  { name: 'Skills',     href: 'skills' },
+  { name: 'Contact',    href: 'contact' },
 ];
 
 const techStack = [
@@ -24,7 +25,7 @@ const techStack = [
   { name: 'Docker',       src: 'https://cdn.simpleicons.org/docker/ffffff' },
   { name: 'Python',       src: 'https://cdn.simpleicons.org/python/ffffff' },
   { name: 'TypeScript',   src: 'https://cdn.simpleicons.org/typescript/ffffff' },
-  { name: 'AWS',          src: 'https://cdn.simpleicons.org/amazonaws/ffffff' },
+  { name: 'AWS',          src: 'https://cdn.simpleicons.org/amazonwebservices/ffffff' },
   { name: 'Stripe',       src: 'https://cdn.simpleicons.org/stripe/ffffff' },
   { name: 'GraphQL',      src: 'https://cdn.simpleicons.org/graphql/ffffff' },
   { name: 'Tailwind CSS', src: 'https://cdn.simpleicons.org/tailwindcss/ffffff' },
