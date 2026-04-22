@@ -3,6 +3,7 @@
 import VideoHero from './components/VideoHero';
 import RaceLights from './components/RaceLights';
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
@@ -14,6 +15,8 @@ export default function Home() {
       <RaceLights />
       <VideoHero />
       <div id="about"><AboutMe /></div>
+      <TrackDivider />
+      <div id="experience"><Experience /></div>
       <TrackDivider />
       <div id="projects"><Projects /></div>
       <TrackDivider />
