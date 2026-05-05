@@ -19,14 +19,14 @@ const allProjects: ProjectCardProps[] = [
     description:
       'Guardrail-driven skincare platform with a 7-step questionnaire engine generating personalized AM/PM routines using 10 deterministic guardrails and 6 recommendation pathways. Privacy-first design with Phase 2 roadmap for selfie-based skin analysis via open-source SDKs.',
     tags: ['Django', 'React', 'Vite', 'PostgreSQL', 'Framer Motion', 'Mailjet', 'Tailwind'],
-    link: 'https://github.com/Benmore-Studio/Gladys',
+    link: 'https://sabilalabs.ai/questionnaire',
   },
   {
     title: 'Trade Vacations',
     description:
       'Two-sided marketplace where skilled tradespeople exchange labor for vacation rental stays. Property owners post maintenance work; tradespeople apply, complete jobs, then enjoy the stay. Features worker verification, geographic search, and Stripe subscription billing.',
     tags: ['Django', 'Next.js', 'PostgreSQL', 'Celery', 'Redis', 'Stripe', 'Cloudinary'],
-    link: 'https://github.com/Benmore-Studio/TradeVacations',
+    link: 'https://trade-vacations.vercel.app/',
   },
   {
     title: 'AeroServe',
@@ -39,6 +39,7 @@ const allProjects: ProjectCardProps[] = [
     description:
       'Vendor-agnostic AI platform predicting ESP failures in oil wells up to 60 days in advance, preventing failures costing $100K–$300K each. Aggregates data from any ESP/SCADA system, applies proprietary analytics formulas, and delivers role-based dashboards with risk indicators.',
     tags: ['Python', 'React', 'PostgreSQL', 'AWS', 'REST API', 'ML', 'Real-time Data', 'RBAC'],
+    link: 'https://sentinel-lift.vercel.app/',
   },
 
   // ── Side Projects ─────────────────────────────────────────────────────────
@@ -47,14 +48,14 @@ const allProjects: ProjectCardProps[] = [
     description:
       'Full-stack AI generation platform integrating Stable Diffusion APIs to create images and 3D models. Features real-time prompt handling, error recovery, reusable UI components, and a secure Express + PostgreSQL backend.',
     tags: ['React', 'Node.js', 'TypeScript', 'Tailwind', 'PostgreSQL', 'AI', 'Stable Diffusion'],
-    link: 'https://github.com/aniture/ai-generation-studio-ui',
+    link: 'https://ai-generation-studio-ui.vercel.app/',
   },
   {
     title: 'AI Financial News Summarizer',
     description:
       'React + FastAPI app that summarizes financial news, detects market sentiment, and extracts stock tickers using AI. Surfaces live headlines via NewsAPI with a real-time dashboard.',
     tags: ['React', 'FastAPI', 'Python', 'NLP', 'NewsAPI', 'Sentiment Analysis'],
-    link: 'https://github.com/aniture/ai-financial-news-summarizer',
+    link: 'https://ai-financial-news-summarizer.vercel.app/',
   },
   {
     title: '3D Geometry Manipulation Simulation',
@@ -68,7 +69,7 @@ const allProjects: ProjectCardProps[] = [
     description:
       'Progressive web app for interactive treasure hunts where users scan QR codes to unlock artifact details. Supports offline caching, local progress tracking, and an admin panel for generating QR codes.',
     tags: ['React', 'TypeScript', 'Vite', 'Node.js', 'Express', 'PWA', 'QR Code'],
-    link: 'https://github.com/aniture/Hunt-For-Artifacts',
+    link: 'https://hunt-for-artifacts-psi.vercel.app/',
   },
   {
     title: 'Air Quality Prediction',
