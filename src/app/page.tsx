@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Philosophy from './components/Philosophy';
+import PressConference from './components/PressConference';
 import Availability from './components/Availability';
 import Contact from './components/Contact';
 import TrackDivider from './components/TrackDivider';
@@ -24,6 +25,8 @@ export default function Home() {
       <div id="about"><AboutMe /></div>
       <TrackDivider />
       <div id="experience"><Experience /></div>
+      <TrackDivider />
+      <div id="press-conference"><PressConference /></div>
       <TrackDivider />
       <div id="projects"><Projects /></div>
       <TrackDivider />
