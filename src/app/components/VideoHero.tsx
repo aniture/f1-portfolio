@@ -11,6 +11,7 @@ import { Menu, X, ChevronRight } from 'lucide-react';
 const menuItems = [
   { name: 'About',      href: 'about' },
   { name: 'Experience', href: 'experience' },
+  { name: 'Interview',  href: 'press-conference' },
   { name: 'Projects',   href: 'projects' },
   { name: 'Skills',     href: 'skills' },
   { name: 'Contact',    href: 'contact' },
