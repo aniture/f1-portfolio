@@ -7,7 +7,7 @@ Personal portfolio for **Aditya Niture** (Forward Deployed Software Engineer). F
 ```bash
 npm run dev       # dev server (Turbopack)
 npm run build     # production build — run before every commit
-npm run lint      # ESLint
+npx eslint src   # lint (Next.js 16 removed the `lint` subcommand)
 ```
 
 Always run `npm run build` before committing. The build must be clean (no errors; `<img>` warnings are acceptable).
@@ -34,6 +34,7 @@ VideoHero           — hero video + HeroHeader nav + tech stack slider
 Stats               — animated impact numbers strip
 #about  AboutMe     — Meet the Driver
 #experience  Experience  — Career Circuit timeline (3 roles)
+#press-conference  PressConference  — Benmore CEO interview (click-to-play YouTube embed)
 #projects  Projects — Project Race Grid (19 projects, show more/less)
 #skills  Skills     — Pit Crew Toolkit bento grid
 #education  Education     — Race School (IIT + Bidve)
@@ -50,7 +51,7 @@ Nav is embedded inside `VideoHero` → `HeroHeader`. It is **fixed z-50**.
 
 All nav links use `onClick={() => scrollToSection(id)}` with `document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })`. **Do NOT use `<Link href="#...">` or `<a href="#...">` for in-page scroll** — Next.js App Router intercepts same-origin clicks and breaks hash navigation.
 
-Current nav items: About · Experience · Projects · Skills · Contact
+Current nav items: About · Experience · Interview · Projects · Skills · Contact
 
 ## Key Conventions
 
@@ -71,6 +72,7 @@ Current nav items: About · Experience · Projects · Skills · Contact
 | `Stats.tsx` | 6-cell impact numbers grid |
 | `AboutMe.tsx` | Centered bio, social links |
 | `Experience.tsx` | Timeline: Benmore (current), Ping Cares, Unilife |
+| `PressConference.tsx` | Benmore CEO interview section — click-to-play YouTube embed |
 | `Projects.tsx` | 19 projects, 6 visible default, AnimatePresence show more |
 | `ProjectCard.tsx` | h-full card with top-sweep hover |
 | `Skills.tsx` | 6-category bento grid, primary/secondary skill tiers |
