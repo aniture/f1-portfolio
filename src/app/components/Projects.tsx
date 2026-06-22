@@ -12,21 +12,21 @@ const allProjects: ProjectCardProps[] = [
     description:
       'White-label business formation platform automating LLC, S-Corp, and corporation filings across all 50 U.S. states via CorpNet API. Features Stripe payment processing, Celery background jobs, automated document management, and 89% test coverage across 881 passing tests.',
     tags: ['Django', 'PostgreSQL', 'Stripe', 'Celery', 'Redis', 'REST API', 'Heroku', 'Pytest'],
-    link: 'https://portal.bizsult.co/',
+    link: 'https://www.bizsult.com/',
   },
   {
     title: 'Gladys: Skincare Recommendation Engine',
     description:
       'Guardrail-driven skincare platform with a 7-step questionnaire engine generating personalized AM/PM routines using 10 deterministic guardrails and 6 recommendation pathways. Privacy-first design with Phase 2 roadmap for selfie-based skin analysis via open-source SDKs.',
     tags: ['Django', 'React', 'Vite', 'PostgreSQL', 'Framer Motion', 'Mailjet', 'Tailwind'],
-    link: 'https://sabilalabs.ai/questionnaire',
+    link: 'https://sabilalabs.ai/',
   },
   {
     title: 'Trade Vacations',
     description:
       'Two-sided marketplace where skilled tradespeople exchange labor for vacation rental stays. Property owners post maintenance work; tradespeople apply, complete jobs, then enjoy the stay. Features worker verification, geographic search, and Stripe subscription billing.',
     tags: ['Django', 'Next.js', 'PostgreSQL', 'Celery', 'Redis', 'Stripe', 'Cloudinary'],
-    link: 'https://trade-vacations.vercel.app/',
+    link: 'https://trade-vacations.com/',
   },
   {
     title: 'AeroServe',
