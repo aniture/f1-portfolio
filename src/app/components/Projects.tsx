@@ -39,7 +39,7 @@ const allProjects: ProjectCardProps[] = [
     description:
       'Vendor-agnostic AI platform predicting ESP failures in oil wells up to 60 days in advance, preventing failures costing $100K–$300K each. Aggregates data from any ESP/SCADA system, applies proprietary analytics formulas, and delivers role-based dashboards with risk indicators.',
     tags: ['Python', 'React', 'PostgreSQL', 'AWS', 'REST API', 'ML', 'Real-time Data', 'RBAC'],
-    link: 'https://sentinel-lift.vercel.app/',
+    link: 'https://sentinellift.com/',
   },
 
   // ── Side Projects ─────────────────────────────────────────────────────────
