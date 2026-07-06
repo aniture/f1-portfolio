@@ -42,13 +42,14 @@ const allProjects: ProjectCardProps[] = [
     link: 'https://sentinellift.com/',
   },
 
-  // ── Side Projects ─────────────────────────────────────────────────────────
+  // ── University / Academic Projects ───────────────────────────────────────
   {
     title: 'AI-Generation Studio UI',
     description:
       'Full-stack AI generation platform integrating Stable Diffusion APIs to create images and 3D models. Features real-time prompt handling, error recovery, reusable UI components, and a secure Express + PostgreSQL backend.',
     tags: ['React', 'Node.js', 'TypeScript', 'Tailwind', 'PostgreSQL', 'AI', 'Stable Diffusion'],
     link: 'https://ai-generation-studio-ui.vercel.app/',
+    isUniversityProject: true,
   },
   {
     title: 'AI Financial News Summarizer',
@@ -56,6 +57,7 @@ const allProjects: ProjectCardProps[] = [
       'React + FastAPI app that summarizes financial news, detects market sentiment, and extracts stock tickers using AI. Surfaces live headlines via NewsAPI with a real-time dashboard.',
     tags: ['React', 'FastAPI', 'Python', 'NLP', 'NewsAPI', 'Sentiment Analysis'],
     link: 'https://ai-financial-news-summarizer.vercel.app/',
+    isUniversityProject: true,
   },
   {
     title: '3D Geometry Manipulation Simulation',
@@ -63,6 +65,7 @@ const allProjects: ProjectCardProps[] = [
       'Interactive simulation for visualizing and manipulating 3D geometric structures. Users apply transformations, rotations, and scaling in real time via a Three.js + React interface.',
     tags: ['React', 'Three.js', 'JavaScript', 'WebGL', '3D Visualization'],
     link: 'https://github.com/aniture/3d-geometry-manipulation-simulation',
+    isUniversityProject: true,
   },
   {
     title: 'Hunt for Artifacts',
@@ -70,6 +73,7 @@ const allProjects: ProjectCardProps[] = [
       'Progressive web app for interactive treasure hunts where users scan QR codes to unlock artifact details. Supports offline caching, local progress tracking, and an admin panel for generating QR codes.',
     tags: ['React', 'TypeScript', 'Vite', 'Node.js', 'Express', 'PWA', 'QR Code'],
     link: 'https://hunt-for-artifacts-psi.vercel.app/',
+    isUniversityProject: true,
   },
   {
     title: 'Air Quality Prediction',
@@ -77,6 +81,7 @@ const allProjects: ProjectCardProps[] = [
       'Predicted PM2.5 levels using LSTM, ARIMA, and Random Forest models on real-world sensor data, with comparative analysis of model accuracy across different forecasting horizons.',
     tags: ['Python', 'ML', 'LSTM', 'ARIMA', 'Random Forest', 'Pandas', 'Scikit-Learn'],
     link: 'https://github.com/aniture/Air-Quality-Prediction',
+    isUniversityProject: true,
   },
   {
     title: 'Online Shoppers Intention',
@@ -84,6 +89,7 @@ const allProjects: ProjectCardProps[] = [
       'ML model using XGBoost and SMOTE to predict online purchase behavior from clickstream data. Applied K-Means and DBSCAN for customer segmentation.',
     tags: ['Python', 'XGBoost', 'SMOTE', 'K-Means', 'DBSCAN', 'Scikit-Learn'],
     link: 'https://github.com/aniture/Analysis-on-Online-Shoppers-Purchasing-Intention',
+    isUniversityProject: true,
   },
   {
     title: 'Live News App',
@@ -91,6 +97,7 @@ const allProjects: ProjectCardProps[] = [
       'Flutter app fetching live news from APIs with category filters, bookmarks, and clean Material Design UI built with Dart.',
     tags: ['Flutter', 'Dart', 'REST API', 'Mobile'],
     link: 'https://github.com/aniture/Live-News-Fetching-Application',
+    isUniversityProject: true,
   },
   {
     title: 'Blood & Organ Donation App',
@@ -98,6 +105,7 @@ const allProjects: ProjectCardProps[] = [
       'Android application for blood and organ donation management built in Kotlin with a SQLite backend for donor registry and request tracking.',
     tags: ['Kotlin', 'Android Studio', 'SQLite', 'Mobile'],
     link: 'https://github.com/aniture/Blood-And-OrganDonation-Application',
+    isUniversityProject: true,
   },
   {
     title: 'Battleship Android Game',
@@ -105,6 +113,7 @@ const allProjects: ProjectCardProps[] = [
       'Multiplayer Battleship game with custom game logic, ship placement, and UI animations built in Flutter with turn-based state management.',
     tags: ['Flutter', 'Dart', 'Game Development', 'Multiplayer'],
     link: 'https://github.com/aniture/Battleship-Android-Game',
+    isUniversityProject: true,
   },
   {
     title: 'Desktop Scheduler App',
@@ -112,6 +121,7 @@ const allProjects: ProjectCardProps[] = [
       'Windows Forms app using .NET and Entity Framework for task scheduling with full CRUD operations and SQL Server persistence.',
     tags: ['.NET', 'C#', 'Entity Framework', 'Windows Forms', 'SQL Server'],
     link: 'https://github.com/aniture/desktop-scheduler-app',
+    isUniversityProject: true,
   },
   {
     title: 'Vending Machine System',
@@ -119,6 +129,7 @@ const allProjects: ProjectCardProps[] = [
       'Extended Finite State Machine model for a vending machine handling dynamic beverage options and payment flows, implemented with the Strategy Pattern in Java.',
     tags: ['Java', 'OOP', 'EFSM', 'Strategy Pattern'],
     link: 'https://github.com/aniture/MDA-EFSM-Model-for-Vending-Machine',
+    isUniversityProject: true,
   },
   {
     title: 'Gas Pump System',
@@ -126,6 +137,7 @@ const allProjects: ProjectCardProps[] = [
       'EFSM model for a gas pump system handling fuel selection, payment, and dispensing flows using OOP principles and Strategy Pattern in Java.',
     tags: ['Java', 'OOP', 'EFSM', 'Strategy Pattern'],
     link: 'https://github.com/aniture/MDA-EFSM-model-for-the-Gas-Pump',
+    isUniversityProject: true,
   },
   {
     title: 'FancyQuoteApp',
@@ -133,6 +145,7 @@ const allProjects: ProjectCardProps[] = [
       'Fun quote-generating web app with animations and UI effects built with ASP.NET and C#.',
     tags: ['ASP.NET', 'C#', 'Animations', 'Web App'],
     link: 'https://github.com/aniture/FancyQuoteApp',
+    isUniversityProject: true,
   },
   {
     title: 'Flashcard Android Game',
@@ -140,6 +153,7 @@ const allProjects: ProjectCardProps[] = [
       'Educational flashcard game in Flutter for interactive learning through quizzes and spaced repetition.',
     tags: ['Flutter', 'Dart', 'Education', 'Mobile'],
     link: 'https://github.com/aniture/Flashcard-Android-Game',
+    isUniversityProject: true,
   },
   {
     title: 'Yatzee Android Game',
@@ -147,6 +161,7 @@ const allProjects: ProjectCardProps[] = [
       'Digital version of the classic Yatzee dice game in Flutter with turn-based logic, score tracking, and animated dice rolls.',
     tags: ['Flutter', 'Dart', 'Game Development', 'Mobile'],
     link: 'https://github.com/aniture/Yatzee-Android-Game',
+    isUniversityProject: true,
   },
 ];
 

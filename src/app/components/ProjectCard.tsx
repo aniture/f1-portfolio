@@ -8,9 +8,10 @@ export interface ProjectCardProps {
   description: string;
   tags: string[];
   link?: string;
+  isUniversityProject?: boolean;
 }
 
-export default function ProjectCard({ title, description, tags, link }: ProjectCardProps) {
+export default function ProjectCard({ title, description, tags, link, isUniversityProject }: ProjectCardProps) {
   return (
     <motion.div
       whileHover={{ y: -5 }}
@@ -20,6 +21,13 @@ export default function ProjectCard({ title, description, tags, link }: ProjectC
     >
       {/* Top accent line on hover */}
       <span className="absolute top-0 left-0 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-red-600 to-red-400 transition-all duration-500 ease-out" />
+
+      {/* University project badge */}
+      {isUniversityProject && (
+        <span className="absolute top-0 right-0 bg-indigo-900/60 border-b border-l border-indigo-700/40 text-indigo-300 text-[10px] font-medium px-2.5 py-1 rounded-bl-lg rounded-tr-xl tracking-wide">
+          🎓 Academic
+        </span>
+      )}
 
       {/* Header */}
       <div className="flex items-start justify-between gap-3">
