@@ -133,7 +133,7 @@ export default function Contact() {
       </div>
 
       <p className="text-center text-gray-600 text-xs mt-8">
-        Chicago, IL · Open to Remote · adityaniture07@gmail.com
+        San Jose, CA · Open to Remote · adityaniture07@gmail.com
       </p>
     </div>
   );

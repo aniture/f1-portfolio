@@ -11,7 +11,7 @@ const openTo = [
   'AI-Augmented Engineering',
 ];
 
-const locations = ['Chicago, IL', 'Remote', 'Open to Relocate'];
+const locations = ['San Jose, CA', 'Remote', 'Open to Relocate'];
 
 export default function Availability() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });

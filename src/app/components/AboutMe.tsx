@@ -44,7 +44,7 @@ export default function AboutMe() {
           </li>
           <li>
             <span className="text-red-500 mr-2">📍</span>
-            <span className="text-gray-300 font-medium">Location:</span> Chicago, IL, Open to relocate
+            <span className="text-gray-300 font-medium">Location:</span> San Jose, CA, Open to relocate
           </li>
         </ul>
 
