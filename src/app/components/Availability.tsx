@@ -50,7 +50,7 @@ export default function Availability() {
                 Ready to race at your company.
               </h2>
               <p className="text-gray-400 text-sm max-w-lg leading-relaxed mb-6">
-                Bringing 3+ years of production-grade full-stack engineering, AI-augmented delivery, and client-facing technical leadership to your next high-impact product.
+                Bringing 4+ years of production-grade full-stack engineering, AI-augmented delivery, and client-facing technical leadership to your next high-impact product.
               </p>
 
               {/* Role tags */}
