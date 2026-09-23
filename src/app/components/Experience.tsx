@@ -41,7 +41,7 @@ const experiences: Exp[] = [
     role: 'Software Engineer',
     company: 'Ping Cares',
     location: 'Chicago, IL',
-    period: 'Jan 2025 — Jan 2026',
+    period: 'Aug 2024 — Jan 2026',
     current: false,
     metrics: [
       { value: '25%', label: 'Engagement Lift' },
